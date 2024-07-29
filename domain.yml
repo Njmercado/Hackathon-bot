@@ -19,3 +19,6 @@ responses:
 
   utter_transfer_complete:
     - text: "All done. {amount} has been sent to {recipient}."
+
+  utter_company_hours:
+    - text: "Los horarios de la empresa son de 8 de la maniana a 5 de la tarede, de Lunes a Viernes. Los Sabados son de 9 de la maniana a 1 de la tarde. Los Domingos y Festivos no estamos disponibles."

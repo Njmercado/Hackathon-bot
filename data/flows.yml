@@ -6,3 +6,7 @@ flows:
       - collect: amount
         description: the number of US dollars to send
       - action: utter_transfer_complete
+  hours:
+    description: This flow is used to notify to users what are the company work hours.
+    steps:
+      - action: utter_company_hours
